@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ICDProject
+  Name="Wilhoit Properties"
+  Description=""
+  Version="2022.822.0.0"
+  Id="{9ddc1ed8-3eca-486a-92dd-83feac1198fd}"
+  TemplateName="Provisioning package"
+  TemplateType="ProvisioningPackage"
+  ScenarioId="d2fa89db-1251-4bdf-b1bf-4b96016aaea4">
+  <TargetEditions>
+    <Sku>
+      <StoreType>File</StoreType>
+      <Name>All Windows editions</Name>
+      <SourcePath>Microsoft-Common-Provisioning.dat</SourcePath>
+      <Edition>WindowsCommon</Edition>
+      <Version>10.0</Version>
+      <Description>Selecting this option will display settings that apply to all Windows editions.</Description>
+    </Sku>
+    <Sku>
+      <StoreType>File</StoreType>
+      <Name>All Windows desktop editions</Name>
+      <SourcePath>Microsoft-Desktop-Provisioning.dat</SourcePath>
+      <Edition>Desktop</Edition>
+      <Version>10.0</Version>
+      <Description>Selecting this option will display settings that are specific to the desktop editions as well as settings that are common to all Windows editions.</Description>
+    </Sku>
+  </TargetEditions>
+</ICDProject>
